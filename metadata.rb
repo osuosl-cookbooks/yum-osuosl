@@ -8,4 +8,4 @@ version          '0.1.0'
 
 supports "centos", "~> 6.0"
 
-depends "yum"
+depends "yum", ">= 3.0"
