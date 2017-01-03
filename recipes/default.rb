@@ -17,10 +17,10 @@
 # limitations under the License.
 #
 
-yum_repository "osuosl" do
-  repositoryid "osuosl"
-  description "OSUOSL repo $releasever - $basearch"
-  url "http://ftp.osuosl.org/pub/osl/repos/yum/$releasever/$basearch"
-  gpgkey "http://ftp.osuosl.org/pub/osl/repos/yum/RPM-GPG-KEY-osuosl"
+yum_repository 'osuosl' do
+  repositoryid 'osuosl'
+  description 'OSUOSL repo $releasever - $basearch'
+  url 'http://ftp.osuosl.org/pub/osl/repos/yum/$releasever/$basearch'
+  gpgkey 'http://ftp.osuosl.org/pub/osl/repos/yum/RPM-GPG-KEY-osuosl'
   action :add
 end
