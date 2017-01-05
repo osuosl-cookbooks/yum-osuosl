@@ -9,6 +9,6 @@ long_description 'Installs/Configures yum-osuosl'
 version          '0.1.1'
 
 supports 'centos', '~> 6.0'
-supports 'centos', '~> 7'
+supports 'centos', '~> 7.0'
 
 depends 'yum', '>= 3.0'
