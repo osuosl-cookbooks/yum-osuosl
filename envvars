@@ -1,0 +1,4 @@
+cookbook=yum-osuosl
+version=0.1.2
+envs=~
+pr_link=https://github.com/osuosl-cookbooks/yum-osuosl/pull/3
