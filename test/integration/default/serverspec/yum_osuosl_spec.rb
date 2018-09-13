@@ -1,7 +1,6 @@
 require 'serverspec'
 
-include Serverspec::Helper::Exec
-include Serverspec::Helper::DetectOS
+set :backend, :exec
 
 describe yumrepo('osuosl') do
   it { should exist }

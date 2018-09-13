@@ -1,7 +1,8 @@
 name             'yum-osuosl'
 maintainer       'Oregon State University'
 maintainer_email 'chef@osuosl.org'
-license          'Apache 2.0'
+license          'Apache-2.0'
+chef_version     '>= 12.18' if respond_to?(:chef_version)
 issues_url       'https://github.com/osuosl-cookbooks/yum-osuosl/issues'
 source_url       'https://github.com/osuosl-cookbooks/yum-osuosl'
 description      'Installs/Configures yum-osuosl'
