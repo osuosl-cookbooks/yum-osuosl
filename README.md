@@ -1,6 +1,6 @@
 # yum-osuosl-cookbook
 
-Installs the (OSUOSL Yum Repo)[http://ftp.osuosl.org/pub/osl/repos/yum].
+Installs the [OSUOSL Yum Repo](http://ftp.osuosl.org/pub/osl/repos/yum).
 
 ## Usage
 
