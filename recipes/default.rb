@@ -2,7 +2,7 @@
 # Cookbook:: yum-osuosl
 # Recipe:: default
 #
-# Copyright:: (C) 2014 Oregon State University
+# Copyright:: 2014-2020, Oregon State University
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -20,7 +20,7 @@
 yum_repository 'osuosl' do
   repositoryid 'osuosl'
   description 'OSUOSL repo $releasever - $basearch'
-  url 'http://ftp.osuosl.org/pub/osl/repos/yum/$releasever/$basearch'
+  baseurl 'http://ftp.osuosl.org/pub/osl/repos/yum/$releasever/$basearch'
   gpgkey 'http://ftp.osuosl.org/pub/osl/repos/yum/RPM-GPG-KEY-osuosl'
   action :add
 end
