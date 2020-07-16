@@ -10,3 +10,4 @@ version          '1.1.0'
 
 supports 'centos', '~> 6.0'
 supports 'centos', '~> 7.0'
+supports 'centos', '~> 8.0'
