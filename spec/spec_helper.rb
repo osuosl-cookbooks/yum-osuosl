@@ -1,6 +1,11 @@
 require 'chefspec'
 require 'chefspec/berkshelf'
 
+CENTOS_8 = {
+  platform: 'centos',
+  version: '8',
+}.freeze
+
 CENTOS_7 = {
   platform: 'centos',
   version: '7',
