@@ -19,6 +19,7 @@ CENTOS_6 = {
 ALL_PLATFORMS = [
   CENTOS_6,
   CENTOS_7,
+  CENTOS_8,
 ].freeze
 
 RSpec.configure do |config|
