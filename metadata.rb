@@ -8,6 +8,5 @@ chef_version     '>= 14.0'
 description      'Installs/Configures yum-osuosl'
 version          '1.1.2'
 
-supports 'centos', '~> 6.0'
 supports 'centos', '~> 7.0'
 supports 'centos', '~> 8.0'
