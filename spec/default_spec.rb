@@ -10,7 +10,7 @@ describe 'yum-osuosl::default' do
         expect { chef_run }.to_not raise_error
       end
       it do
-        expect(chef_run).to add_yum_repository('osuosl').with(
+        expect(chef_run).to create_yum_repository('osuosl').with(
           repositoryid: 'osuosl',
           description: 'OSUOSL repo $releasever - $basearch',
           url: 'http://ftp.osuosl.org/pub/osl/repos/yum/$releasever/$basearch',
