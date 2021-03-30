@@ -3,6 +3,10 @@ yum-osuosl CHANGELOG
 This file is used to list changes made in each version of the
 yum-osuosl cookbook.
 
+1.2.0 (2021-03-30)
+------------------
+- Remove Centos 6 from this Cookbook
+
 1.1.2 (2020-08-25)
 ------------------
 - Chef 16 Fixes
