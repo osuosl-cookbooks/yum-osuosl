@@ -3,6 +3,10 @@ yum-osuosl CHANGELOG
 This file is used to list changes made in each version of the
 yum-osuosl cookbook.
 
+2.0.1 (2023-02-21)
+------------------
+- Add support for Alma Linux
+
 2.0.0 (2021-04-08)
 ------------------
 - Update Chef dependency to >= 16
