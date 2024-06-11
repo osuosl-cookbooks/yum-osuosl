@@ -20,7 +20,10 @@
 yum_repository 'osuosl' do
   repositoryid 'osuosl'
   description 'OSUOSL repo $releasever - $basearch'
-  baseurl 'http://ftp.osuosl.org/pub/osl/repos/yum/$releasever/$basearch'
-  gpgkey 'http://ftp.osuosl.org/pub/osl/repos/yum/RPM-GPG-KEY-osuosl'
-  action :create
+  baseurl 'https://ftp.osuosl.org/pub/osl/repos/yum/$releasever/$basearch'
+  if node['platform_version'].to_i >= 9
+    gpgkey 'https://ftp.osuosl.org/pub/osl/repos/yum/RPM-GPG-KEY-osuosl-2024'
+  else
+    gpgkey 'https://ftp.osuosl.org/pub/osl/repos/yum/RPM-GPG-KEY-osuosl'
+  end
 end
