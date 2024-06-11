@@ -9,4 +9,5 @@ description      'Installs/Configures yum-osuosl'
 version          '2.0.2'
 
 supports         'almalinux', '~> 8.0'
+supports         'almalinux', '~> 9.0'
 supports         'centos', '~> 7.0'
