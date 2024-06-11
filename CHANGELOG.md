@@ -3,6 +3,10 @@ yum-osuosl CHANGELOG
 This file is used to list changes made in each version of the
 yum-osuosl cookbook.
 
+2.1.0 (2024-06-11)
+------------------
+- Add AlmaLinux 9 support
+
 2.0.2 (2024-04-12)
 ------------------
 - Test Kitchen Config Refactor

@@ -6,7 +6,7 @@ issues_url       'https://github.com/osuosl-cookbooks/yum-osuosl/issues'
 license          'Apache-2.0'
 chef_version     '>= 16.0'
 description      'Installs/Configures yum-osuosl'
-version          '2.0.2'
+version          '2.1.0'
 
 supports         'almalinux', '~> 8.0'
 supports         'almalinux', '~> 9.0'
