@@ -26,8 +26,3 @@ platforms:
     driver:
       image: dokken/almalinux-9
       pid_one_command: /usr/lib/systemd/systemd
-
-  - name: centos-7
-    driver:
-      image: dokken/centos-7
-      pid_one_command: /usr/lib/systemd/systemd
