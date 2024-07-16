@@ -3,6 +3,10 @@ yum-osuosl CHANGELOG
 This file is used to list changes made in each version of the
 yum-osuosl cookbook.
 
+2.1.1 (2024-07-16)
+------------------
+- Remove support for CentOS 7
+
 2.1.0 (2024-06-11)
 ------------------
 - Add AlmaLinux 9 support
