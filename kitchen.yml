@@ -24,3 +24,8 @@ suites:
   - name: default
     run_list:
       - recipe[yum-osuosl::default]
+  - name: virt
+    run_list:
+      - recipe[yum-osuosl::virt]
+    excludes:
+      - almalinux-8
