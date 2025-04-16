@@ -3,6 +3,10 @@ yum-osuosl CHANGELOG
 This file is used to list changes made in each version of the
 yum-osuosl cookbook.
 
+2.2.0 (2025-04-16)
+------------------
+- Add virt recipe for Almalinux 9 ppc64le virt repo
+
 2.1.1 (2024-07-16)
 ------------------
 - Remove support for CentOS 7
