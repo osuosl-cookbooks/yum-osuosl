@@ -15,9 +15,10 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+
 yum_repository 'osuosl-virt' do
   repositoryid 'osuosl-virt'
   description 'OSUOSL virt repo $releasever - $basearch'
-  baseurl 'https://ftp.osuosl.org/pub/osl/repos/yum/$releasever/virt/$basearch'
+  baseurl virt_yum_baseurl
   gpgkey 'https://ftp.osuosl.org/pub/osl/repos/yum/RPM-GPG-KEY-osuosl-2024'
 end
