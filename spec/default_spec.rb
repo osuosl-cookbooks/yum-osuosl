@@ -11,7 +11,7 @@ describe 'yum-osuosl::default' do
       end
 
       case p
-      when ALMA_9
+      when ALMA_9, ALMA_10
         it do
           expect(chef_run).to create_yum_repository('osuosl').with(
             repositoryid: 'osuosl',
