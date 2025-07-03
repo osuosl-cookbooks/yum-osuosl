@@ -19,6 +19,6 @@
 yum_repository 'osuosl-virt' do
   repositoryid 'osuosl-virt'
   description 'OSUOSL virt repo $releasever - $basearch'
-  baseurl virt_yum_baseurl
+  baseurl 'https://ftp.osuosl.org/pub/osl/repos/yum/$releasever/virt/$basearch'
   gpgkey 'https://ftp.osuosl.org/pub/osl/repos/yum/RPM-GPG-KEY-osuosl-2024'
 end

@@ -17,7 +17,7 @@ describe 'yum-osuosl::virt' do
           expect(chef_run).to create_yum_repository('osuosl-virt').with(
             repositoryid: 'osuosl-virt',
             description: 'OSUOSL virt repo $releasever - $basearch',
-            url: 'https://ftp.osuosl.org/pub/osl/repos/yum/9/virt/$basearch',
+            url: 'https://ftp.osuosl.org/pub/osl/repos/yum/$releasever/virt/$basearch',
             gpgkey: 'https://ftp.osuosl.org/pub/osl/repos/yum/RPM-GPG-KEY-osuosl-2024'
           )
         end
