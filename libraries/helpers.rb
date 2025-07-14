@@ -1,15 +1,6 @@
 module YumOsuosl
   module Cookbook
     module Helpers
-      def virt_yum_baseurl
-        case node['platform_version'].to_i
-        when 10
-          'https://ftp.osuosl.org/pub/osl/repos/yum/9/virt/$basearch'
-        when 8, 9
-          'https://ftp.osuosl.org/pub/osl/repos/yum/$releasever/virt/$basearch'
-        end
-      end
-
       def default_gpgkey
         case node['platform_version'].to_i
         when 9, 10

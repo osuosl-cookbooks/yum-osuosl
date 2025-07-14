@@ -12,16 +12,7 @@ describe 'yum-osuosl::virt' do
       end
 
       case p
-      when ALMA_10
-        it do
-          expect(chef_run).to create_yum_repository('osuosl-virt').with(
-            repositoryid: 'osuosl-virt',
-            description: 'OSUOSL virt repo $releasever - $basearch',
-            url: 'https://ftp.osuosl.org/pub/osl/repos/yum/$releasever/virt/$basearch',
-            gpgkey: 'https://ftp.osuosl.org/pub/osl/repos/yum/RPM-GPG-KEY-osuosl-2024'
-          )
-        end
-      when ALMA_9
+      when ALMA_10, ALMA_9
         it do
           expect(chef_run).to create_yum_repository('osuosl-virt').with(
             repositoryid: 'osuosl-virt',
