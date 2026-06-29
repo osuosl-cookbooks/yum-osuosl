@@ -3,6 +3,10 @@ yum-osuosl CHANGELOG
 This file is used to list changes made in each version of the
 yum-osuosl cookbook.
 
+2.3.1 (2026-06-29)
+------------------
+- cinc: updated kitchen and dokken files
+
 2.3.0 (2025-07-15)
 ------------------
 - AlmaLinux 10 support
